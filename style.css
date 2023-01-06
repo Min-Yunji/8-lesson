@@ -1,0 +1,68 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    width: auto;
+    height: 80px;
+    background-color: rgb(100, 100, 100);
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+li{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+ 
+li:hover{
+    color: red;
+}
+
+.content-one{
+    width: auto;
+    height: 600px;
+    background-color: cadetblue;
+    background-image: url(https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+.content-two{
+    width: auto;
+    height: 600px;
+    background-color: rgb(20, 32, 25) ;
+    background-image: url(https://media.istockphoto.com/id/1358464636/photo/horses-free-run-in-sandy-dust.jpg?b=1&s=170667a&w=0&k=20&c=vvgtaqRmK8933x8QzFOvCS5TN_fwmtB0ukfScd4pnoU=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+.content-three{
+   width: auto;
+   height: 600px;
+   background-color: rgb(7, 8, 53);
+   background-image: url(https://media.istockphoto.com/id/1349772438/photo/thoroughbred-horses-grazing-at-sunset-in-a-field.jpg?b=1&s=170667a&w=0&k=20&c=lCPmor4n7o2U8K26i9WrZJ8noehzc9E2MdexFhehJCc=);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0%;
+}
+
+.content-four{
+    width: auto;
+    height: 600px;
+    background-color: aliceblue;
+    background-image: url(https://images.unsplash.com/photo-1553284966-19b8815c7817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhvcnNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
